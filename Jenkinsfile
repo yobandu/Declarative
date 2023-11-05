@@ -8,7 +8,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/abhishek/yobandu/Declarative/mvn install'
+			  sh '/home/abhishek/apache-maven-3.9.5-bin/apache-maven-3.9.5/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
