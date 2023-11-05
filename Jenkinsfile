@@ -8,7 +8,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/abhishek/apache-tomcat-9.0.82/bin/mvn install'
+			  sh '/home/abhishek/yobandu/Declarative/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
